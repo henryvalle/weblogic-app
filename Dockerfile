@@ -1,4 +1,4 @@
-FROM henryvalle/weblogic
+FROM henryvalle/weblogic:v1.01
 
 ENV JAVA_OPTIONS="${JAVA_OPTIONS} -Dweblogic.nodemanager.SecureListener=false" \
 ADMIN_PORT="7001" \
